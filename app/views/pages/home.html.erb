@@ -1,4 +1,102 @@
-<div class="container col-md-12">
-  <h1>This is the Portfolio!</h1>
-</div>
+<div class="container py-md-80">
+  <div class="row">
+    <div class="col-md-12">
+      <%= image_tag 'me.jpg', size: '1119x797', class: 'my-picture img-fluid' %>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="col-10 mt-4 text-white title-text">Hi, I'm Mark. I'm a self-taught full-stack Ruby on Rails developer.</h1>
+    <div class="col-2 row d-flex flex-wrap align-items-center mt-4">
+      <a href="https://github.com/MarkBezsonov"><img src="/assets/github.jpg" class="m-2" alt="My Github link"></a>
+      <a href="https://www.linkedin.com/in/mark-b-31947b11a/"><img src="/assets/linkedin.jpg" class="m-2" alt="My LinkedIn link"></a>
+      <a href="mailto: markbezsonov@gmail.com"><img src="/assets/email.jpg" class="m-2" alt="My email link"></a>
+    </div>
+  </div>
+  <h2 class="text-white mt-4 subtitle-text">The Journey</h2>
+  <p class="mt-4 text-white body-text">
+    I started my programming journey back in November of 2020. Ever since then, I have been finding ways to 
+    constantly challenge myself to improve enough to where this newfound skill can eventually become a 
+    life-long career. Me making this portfolio a little over a year later marks me finally being ready to
+    plunge into the professional world of programming (and thus make something of the <em>countless</em> 
+    number of hours put into the process).
+  </p>
+  <p class="mt-4 text-white body-text">
+    Read more about me <%= link_to 'here', about_me_path %>!
+  </p>
+  <h2 class="text-white mt-4 subtitle-text">"I see. What do you bring to the table?"</h2>
+  <p class="mt-4 text-white body-text">
+    Excellent question! I'm glad that you asked.
+    
+    This can be broken down into two main categories: <strong>hard 
+    skills</strong> and <strong>soft skills</strong>.
 
+    My hard skills include the following knowledge and
+    technologies:
+    <div class='row col-12'>
+      <ul class='col-6 text-white m-4'><h4 class='m-4'>Hard Skills:</h4>
+        <li>Ruby</li>
+        <li>Javascript (Basic)</li>
+        <li>Sinatra Full-Stack Utilization</li>
+        <li>Rails v5-6 Full-Stack Utilization</li>
+        <li>HTML</li>
+        <li>(S)CSS</li>
+        <li>Bootstrap v4-5</li>
+        <li>Semantic-UI</li>
+        <li>ActionCable via WebSocket</li>
+        <li>Devise Authentication</li>
+        <li>Ajax</li>
+        <li>API Utilization</li>
+        <li>Nokogiri Web Scraping</li>
+        <li>CLI Creation/Implementation</li>
+        <li>Sendgrid Email Implementation</li>
+        <li>Stripe API Secure Payment Implementation</li>
+        <li>AWS S3 Bucket Implementation</li>
+      </ul>
+      <ul class='col-6 text-white m-4'><h4 class='m-4'>Soft Skills:</h4>
+        <li>Quick Learner</li>
+        <li>Leadership</li>
+        <li>Organized</li>
+        <li>Attention to Detail</li>
+      </ul>
+    </div>
+  </p>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <a href="https://markbezsonov-alpha-blog.herokuapp.com/"><img src="/assets/alpha-blog.jpg" class="card-img-top" alt="A snippet of my website, Alpha Blog"></a>
+        <div class="card-body">
+          <h5 class="card-title">Alpha Blog</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="https://markbezsonov-message-me.herokuapp.com/"><img src="/assets/message-me.jpg" class="card-img-top" alt="A snippet of my website, Message Me"></a>
+        <div class="card-body">
+          <h5 class="card-title">Message Me</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="https://markbezsonov-finance-tracker.herokuapp.com/"><img src="/assets/finance-tracker.jpg" class="card-img-top" alt="A snippet of my website, Finance Tracker"></a>
+        <div class="card-body">
+          <h5 class="card-title">Finance Tracker</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a href="https://markbezsonov-photo-app.herokuapp.com/"><img src="/assets/photo-app.jpg" class="card-img-top" alt="A snippet of my website, Photo App"></a>
+        <div class="card-body">
+          <h5 class="card-title">Photo App</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,41 @@
 @import 'bootstrap/dist/css/bootstrap';
+
+body{
+  background-color: rgba(0, 0, 0, 0.950);
+  padding-top:60px;
+}
+@media screen and (max-width: 767px) {
+  body { padding-top: 60px; }
+}
+@media screen and (min-width:768px) and (max-width: 991px) {
+  body { padding-top: 110px; }
+}
+@media screen and (min-width: 992px) {
+  body { padding-top: 60px; }
+}
+
+.my-picture {
+  display: block;
+  margin: 3% auto 0 auto;
+  height: auto;
+  width: auto;
+  border-radius: 10%;
+}
+
+.title-text {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 75px;
+}
+
+.body-text {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.subtitle-text {
+  font-size: 36px;
+}
+
+.body-text {
+  font-size: 24px;
+}
