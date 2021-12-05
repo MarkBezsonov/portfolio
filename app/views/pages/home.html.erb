@@ -1,46 +1,57 @@
-<div class="container py-md-80">
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <%= image_tag 'me.jpg', size: '1119x797', class: 'my-picture img-fluid' %>
     </div>
   </div>
   <div class="row">
+    <!-- <div class="white-border"></div> -->
     <h1 class="col-10 mt-4 text-white title-text">Hi, I'm Mark. I'm a self-taught full-stack Ruby on Rails developer.</h1>
-    <div class="col-2 row d-flex flex-wrap align-items-center mt-4">
-      <a href="https://github.com/MarkBezsonov"><img src="/assets/github.jpg" class="m-2" alt="My Github link"></a>
-      <a href="https://www.linkedin.com/in/mark-b-31947b11a/"><img src="/assets/linkedin.jpg" class="m-2" alt="My LinkedIn link"></a>
-      <a href="mailto: markbezsonov@gmail.com"><img src="/assets/email.jpg" class="m-2" alt="My email link"></a>
+    <div class="col-2 row d-flex flex-wrap align-items-center mt-4" id='socials'>
+      <a href="https://github.com/MarkBezsonov"><img src="/assets/github.jpg" class="float-end" alt="My Github link"></a>
+      <a href="https://www.linkedin.com/in/mark-b-31947b11a/"><img src="/assets/linkedin.jpg" class="float-end" alt="My LinkedIn link"></a>
+      <a href="mailto: markbezsonov@gmail.com"><img src="/assets/email.jpg" class="float-end" alt="My email link"></a>
     </div>
   </div>
-  <h2 class="text-white mt-4 subtitle-text">The Journey</h2>
+
+  <div class="anchors" id="about-me"></div>
+  <!-- <div class="white-border"></div> -->
+  <h2 class="text-warning mt-4 subtitle-text">"Nice to meet you! Tell me about yourself."</h2>
   <p class="mt-4 text-white body-text">
     I started my programming journey back in November of 2020. Ever since then, I have been finding ways to 
     constantly challenge myself to improve enough to where this newfound skill can eventually become a 
-    life-long career. Me making this portfolio a little over a year later marks me finally being ready to
-    plunge into the professional world of programming (and thus make something of the <em>countless</em> 
-    number of hours put into the process).
+    life-long career. Through the several hundreds of lessons in my Udemy course, I transformed my knowledge from
+    simple methods to entire full-stack websites. Me making this portfolio a little over a year later marks 
+    me finally being ready to plunge into the professional world of programming (and thus make something of 
+    the <em>countless</em> number of hours put into the process).
   </p>
   <p class="mt-4 text-white body-text">
-    Read more about me <%= link_to 'here', about_me_path %>!
+    If I'm not learning something programming related, I also enjoy producing electronic music and going to
+    the gym (6 days a week) in my spare time. I sprinkle in a bit of gaming when I feel like I have earned it
+    as well. I'm also a huge technology enthusiast!
   </p>
-  <h2 class="text-white mt-4 subtitle-text">"I see. What do you bring to the table?"</h2>
+
+  <div class="anchors" id="my-credentials"></div>
+  <!-- <div class="white-border"></div> -->
+  <h2 class="text-warning mt-4 subtitle-text">"I see. What do you bring to the table?"</h2>
   <p class="mt-4 text-white body-text">
     Excellent question! I'm glad that you asked.
     
     This can be broken down into two main categories: <strong>hard 
-    skills</strong> and <strong>soft skills</strong>.
-
-    My hard skills include the following knowledge and
-    technologies:
-    <div class='row col-12'>
-      <ul class='col-6 text-white m-4'><h4 class='m-4'>Hard Skills:</h4>
-        <li>Ruby</li>
+    skills</strong> and <strong>soft skills</strong>. They are as follows:
+  </p>
+  <div class="container">
+    <div class='row col-md-12'>
+      <ul class='col-6 text-white'><h4 class='mt-4 mb-4'>Hard Skills:</h4>
+        <li>Ruby v2-3</li>
         <li>Javascript (Basic)</li>
         <li>Sinatra Full-Stack Utilization</li>
         <li>Rails v5-6 Full-Stack Utilization</li>
         <li>HTML</li>
         <li>(S)CSS</li>
         <li>Bootstrap v4-5</li>
+        <li>jQuery (Basic)</li>
+        <li>Chart.js</li>
         <li>Semantic-UI</li>
         <li>ActionCable via WebSocket</li>
         <li>Devise Authentication</li>
@@ -52,22 +63,55 @@
         <li>Stripe API Secure Payment Implementation</li>
         <li>AWS S3 Bucket Implementation</li>
       </ul>
-      <ul class='col-6 text-white m-4'><h4 class='m-4'>Soft Skills:</h4>
+      <ul class='col-6 text-white'><h4 class='mt-4 mb-4'>Soft Skills:</h4>
         <li>Quick Learner</li>
         <li>Leadership</li>
-        <li>Organized</li>
+        <li>Public Speaking</li>
+        <li>Organization</li>
         <li>Attention to Detail</li>
+        <li>Positive Outlook</li>
+        <li>Team Oriented</li>
+        <li>Discipline</li>
       </ul>
     </div>
+  </div>
+  <p class="mt-4 text-white body-text">
+    On top of those, you can also view my Udemy course certificate <a href="">here</a> and my resume <a href="">here</a>!
   </p>
 
+  <div class="anchors" id="my-work"></div>
+  <!-- <div class="white-border"></div> -->
+  <h2 class="text-warning mt-4 subtitle-text">"Interesting. Can you prove it?"</h2>
+  <p class="mt-4 text-white body-text">
+    I sure can! I have a total of 5 websites built from scratch using Bootstrap (including this one!) and Semantic-UI 
+    for the Message Me app. Check out the cards below for links to each one alongside a short description and list of
+    which technologies were used in the making of the site:
+  </p>
+  <p class="mt-4 text-success body-text">
+    For Testing, Feel Free to Use the Following:
+    <li class="text-success">Username: markbezsonov@gmail.com</li>
+    <li class="text-success mt-2 mb-4">Password: password</li>
+  </p>
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card">
         <a href="https://markbezsonov-alpha-blog.herokuapp.com/"><img src="/assets/alpha-blog.jpg" class="card-img-top" alt="A snippet of my website, Alpha Blog"></a>
         <div class="card-body">
-          <h5 class="card-title">Alpha Blog</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title"><a href="https://markbezsonov-alpha-blog.herokuapp.com/">Alpha Blog</a></h5>
+          <p class="card-text">
+            A blog application that ties in users, articles, and categories. Features administrative features.
+          </p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/alpha_blog">View GitHub Repository</a></p>
+          <p class="card-text">Technologies featured:
+            <ul class=col-md-6>
+              <li>Ruby v2</li>
+              <li>Rails v6</li>
+              <li>HTML</li>
+              <li>(S)CSS</li>
+              <li>Bootstrap v5</li>
+              <li>jQuery (Basic)</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
@@ -75,8 +119,21 @@
       <div class="card">
         <a href="https://markbezsonov-message-me.herokuapp.com/"><img src="/assets/message-me.jpg" class="card-img-top" alt="A snippet of my website, Message Me"></a>
         <div class="card-body">
-          <h5 class="card-title">Message Me</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title"><a href="https://markbezsonov-message-me.herokuapp.com/">Message Me</a></h5>
+          <p class="card-text">
+            A simple messaging application that utilizes users and messages. Uses ActionCable to keep up-to-date in real time.
+          </p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/message_me">View GitHub Repository</a></p>
+          <p class="card-text">Technologies featured:
+            <ul class=col-md-6>
+              <li>Ruby v2</li>
+              <li>Rails v5</li>
+              <li>HTML</li>
+              <li>(S)CSS</li>
+              <li>Semantic UI</li>
+              <li>ActionCable via Websocket</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
@@ -84,8 +141,32 @@
       <div class="card">
         <a href="https://markbezsonov-finance-tracker.herokuapp.com/"><img src="/assets/finance-tracker.jpg" class="card-img-top" alt="A snippet of my website, Finance Tracker"></a>
         <div class="card-body">
-          <h5 class="card-title">Finance Tracker</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title"><a href="https://markbezsonov-finance-tracker.herokuapp.com/">Finance Tracker</a></h5>
+          <p class="card-text">
+            A stock tracking application that uses the IEX Cloud API to provide users with real-time information 
+            regarding the stocks of their choice. Users can add stocks to keep track of with each stock having
+            its own dedicated information page.
+          </p>
+          <p class="card-text text-danger">  
+            Please note that the values are in the free sandbox mode and hence incoherent to realistic values. 
+            This could hypothetically be fixed with a paid plan, but the application is strictly for 
+            demonstration purposes.</strong>
+          </p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/finance_tracker">View GitHub Repository</a></p>
+          <p class="card-text">Technologies featured:
+            <ul>
+              <li>Ruby v3</li>
+              <li>Rails v6</li>
+              <li>HTML</li>
+              <li>(S)CSS</li>
+              <li>Bootstrap v4</li>
+              <li>jQuery (Basic)</li>
+              <li>Chart.js</li>
+              <li>Devise Authentication</li>
+              <li>Ajax</li>
+              <li>API Utilization</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
@@ -93,10 +174,49 @@
       <div class="card">
         <a href="https://markbezsonov-photo-app.herokuapp.com/"><img src="/assets/photo-app.jpg" class="card-img-top" alt="A snippet of my website, Photo App"></a>
         <div class="card-body">
-          <h5 class="card-title">Photo App</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title"><a href="https://markbezsonov-photo-app.herokuapp.com/">Photo App</a></h5>
+          <p class="card-text">
+            A picture storage application that where users have access to unlimited image uploads from any
+            remote device. Features Sendgrid for email confirmation and Stripe for payment handling.
+          </p>
+          <p class="card-text text-success">
+            Stripe Test CC#: 4242-4242-4242-4242<br>
+            Stripe Test CCV: 111
+          </p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/photo_app">View GitHub Repository</a></p>
+          <p class="card-text">Technologies featured:
+            <ul>
+              <li>Ruby v3</li>
+              <li>Rails v6</li>
+              <li>HTML</li>
+              <li>(S)CSS</li>
+              <li>Bootstrap v4</li>
+              <li>jQuery (Basic)</li>
+              <li>Devise Authentication</li>
+              <li>Ajax</li>
+              <li>API Utilization</li>
+              <li>Sendgrid Email Implementation</li>
+              <li>Stripe API Secure Payment Implementation</li>
+              <li>AWS S3 Bucket Implementation</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="anchors" id="contact-me"></div>
+  <!-- <div class="white-border"></div> -->
+  <h2 class="text-warning mt-4 subtitle-text">"I like what I see! How can we get in touch?"</h2>
+  <p class="mt-4 text-white body-text">
+    To keep our wonderful conversation going, feel free to click/tap on your preferred platform below:
+  </p>
+  <div class="col-md-12 text-center mt-4" id='socials'>
+    <a href="https://github.com/MarkBezsonov"><img src="/assets/github.jpg" class="m-4" alt="My Github link"></a>
+    <a href="https://www.linkedin.com/in/mark-b-31947b11a/"><img src="/assets/linkedin.jpg" class="m-4" alt="My LinkedIn link"></a>
+    <a href="mailto: markbezsonov@gmail.com"><img src="/assets/email.jpg" class="m-4" alt="My email link"></a>
+  </div>
+  <p class="mt-4 text-white body-text">
+    This conversation was nice. In the meanwhile, I will be preparing for our <em>real</em> one on one. I'll see you then!
+  </p>
 </div>
