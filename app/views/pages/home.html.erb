@@ -7,8 +7,8 @@
   <div class="row">
     <h1 class="col-10 mt-4 text-white title-text">Hi, I'm Mark. I'm a full-stack Ruby on Rails developer.</h1>
     <div class="col-2 row d-flex flex-wrap align-items-center mt-4" id='socials'>
-      <a href="https://github.com/MarkBezsonov"><%= image_tag 'github.jpg', class: 'float-end' %></a>
-      <a href="https://github.com/MarkBezsonov"><%= image_tag 'linkedin.jpg', class: 'float-end' %></a>
+      <a href="https://github.com/MarkBezsonov" target="_blank"><%= image_tag 'github.jpg', class: 'float-end' %></a>
+      <a href="https://www.linkedin.com/in/mark-b-31947b11a/" target="_blank"><%= image_tag 'linkedin.jpg', target: :_blank, class: 'float-end' %></a>
       <a href="mailto: markbezsonov@gmail.com"><%= image_tag 'email.jpg', class: 'float-end' %></a>
     </div>
     <div class="border mt-4"></div>
@@ -114,13 +114,13 @@
   <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
     <div class="col">
       <div class="card">
-        <a href="https://markbezsonov-alpha-blog.herokuapp.com/"><%= image_tag 'alpha-blog.jpg', class: 'card-img-top' %></a>
+        <a href="https://markbezsonov-alpha-blog.herokuapp.com/" target="_blank"><%= image_tag 'alpha-blog.jpg', class: 'card-img-top' %></a>
         <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-alpha-blog.herokuapp.com/">Alpha Blog</a></h5>
+          <h5 class="card-title"><a href="https://markbezsonov-alpha-blog.herokuapp.com/" target="_blank">Alpha Blog</a></h5>
           <p class="card-text">
             A blog application that ties in users, articles, and categories. Features administrative features.
           </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/alpha_blog">View GitHub Repository</a></p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/alpha_blog" target="_blank">View GitHub Repository</a></p>
           <p class="card-text">Technologies featured:
             <ul class=col-md-6>
               <li>Ruby v2</li>
@@ -136,13 +136,13 @@
     </div>
     <div class="col">
       <div class="card">
-        <a href="https://markbezsonov-message-me.herokuapp.com/"><%= image_tag 'message-me.jpg', class: 'card-img-top' %></a>
+        <a href="https://markbezsonov-message-me.herokuapp.com/" target="_blank"><%= image_tag 'message-me.jpg', class: 'card-img-top' %></a>
         <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-message-me.herokuapp.com/">Message Me</a></h5>
+          <h5 class="card-title"><a href="https://markbezsonov-message-me.herokuapp.com/" target="_blank">Message Me</a></h5>
           <p class="card-text">
             A simple messaging application that utilizes users and messages. Uses ActionCable to keep up-to-date in real time.
           </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/message_me">View GitHub Repository</a></p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/message_me" target="_blank">View GitHub Repository</a></p>
           <p class="card-text">Technologies featured:
             <ul class=col-md-6>
               <li>Ruby v2</li>
@@ -158,9 +158,9 @@
     </div>
     <div class="col">
       <div class="card">
-        <a href="https://markbezsonov-finance-tracker.herokuapp.com/"><%= image_tag 'finance-tracker.jpg', class: 'card-img-top' %></a>
+        <a href="https://markbezsonov-finance-tracker.herokuapp.com/" target="_blank"><%= image_tag 'finance-tracker.jpg', class: 'card-img-top' %></a>
         <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-finance-tracker.herokuapp.com/">Finance Tracker</a></h5>
+          <h5 class="card-title"><a href="https://markbezsonov-finance-tracker.herokuapp.com/" target="_blank">Finance Tracker</a></h5>
           <p class="card-text">
             A stock tracking application that uses the IEX Cloud API to provide users with real-time information 
             regarding the stocks of their choice. Users can add stocks to keep track of to their personal portfolio,
@@ -172,7 +172,7 @@
             This could hypothetically be fixed with a paid plan, but the application is strictly for 
             demonstration purposes.</strong>
           </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/finance_tracker">View GitHub Repository</a></p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/finance_tracker" target="_blank">View GitHub Repository</a></p>
           <p class="card-text">Technologies featured:
             <ul>
               <li>Ruby v3</li>
@@ -192,9 +192,9 @@
     </div>
     <div class="col">
       <div class="card">
-        <a href="https://markbezsonov-photo-app.herokuapp.com/"><%= image_tag 'photo-app.jpg', class: 'card-img-top' %></a>
+        <a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank"><%= image_tag 'photo-app.jpg', class: 'card-img-top' %></a>
         <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-photo-app.herokuapp.com/">Photo App</a></h5>
+          <h5 class="card-title"><a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank">Photo App</a></h5>
           <p class="card-text">
             A picture storage application that where users have access to unlimited image uploads from any
             remote device. Features Sendgrid for email confirmation and Stripe for payment handling.
@@ -203,7 +203,7 @@
             Stripe Test CC#: 4242-4242-4242-4242<br>
             Stripe Test CCV: 111<br>
           </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/photo_app">View GitHub Repository</a></p>
+          <p><a class="card-text" href="https://github.com/MarkBezsonov/photo_app" target="_blank">View GitHub Repository</a></p>
           <p class="card-text">Technologies featured:
             <ul>
               <li>Ruby v3</li>
@@ -231,9 +231,9 @@
     To keep our wonderful conversation going, feel free to click/tap on your preferred platform below:
   </p>
   <div class="col-md-12 text-center mt-4" id='socials'>
-    <a href="https://github.com/MarkBezsonov"><%= image_tag 'github.jpg', class: 'm-4' %></a>
-    <a href="https://www.linkedin.com/in/mark-b-31947b11a/"><%= image_tag 'linkedin.jpg', class: 'm-4' %></a>
-    <a href="mailto: markbezsonov@gmail.com"><%= image_tag 'email.jpg', class: 'm-4' %></a>
+    <a href="https://github.com/MarkBezsonov" target="_blank"><%= image_tag 'github.jpg', class: 'm-4' %></a>
+    <a href="https://www.linkedin.com/in/mark-b-31947b11a/" target="_blank"><%= image_tag 'linkedin.jpg', class: 'm-4' %></a>
+    <a href="mailto: markbezsonov@gmail.com" target="_blank"><%= image_tag 'email.jpg', class: 'm-4' %></a>
   </div>
   <p class="mt-4 text-white body-text">
     This conversation was great! In the meanwhile, I will be preparing for our <em>real</em> one on one, coffee on me! I'll see you then!
