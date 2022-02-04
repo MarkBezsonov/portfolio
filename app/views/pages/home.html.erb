@@ -1,241 +1,238 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-16">
-      <%= image_tag 'me.jpg', size: '1119x797', class: 'my-picture img-fluid' %>
-    </div>
+    <%= image_tag 'me.jpg', size: '1119x797', class: 'my-picture img-fluid' %>
   </div>
   <div class="row">
-    <h1 class="col-10 mt-4 text-white title-text">Hi, I'm Mark. I'm a full-stack Ruby on Rails developer.</h1>
+    <div class="col-1"></div>
+    <h1 class="col-8 mt-4 text-white title-text">Hi, I'm Mark. I'm a full-stack Ruby on Rails developer.</h1>
     <div class="col-2 row d-flex flex-wrap align-items-center mt-4" id='socials'>
       <a href="https://github.com/MarkBezsonov" target="_blank"><%= image_tag 'github.jpg', class: 'float-end' %></a>
       <a href="https://www.linkedin.com/in/mark-b-31947b11a/" target="_blank"><%= image_tag 'linkedin.jpg', target: :_blank, class: 'float-end' %></a>
-      <a href="mailto: markbezsonov@gmail.com"><%= image_tag 'email.jpg', class: 'float-end' %></a>
+      <a href="mailto: markbezsonov@gmail.com?subject=Regarding%20Your%20Portfolio"><%= image_tag 'email.jpg', class: 'float-end' %></a>
     </div>
-    <div class="border mt-4"></div>
+    <div class="col-1"></div>
+
+    <div class="col-1"></div>
+      <a href="#about" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">About</a>
+      <a href="#projects" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Projects</a>
+      <a href="#contact" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Contact</a>
+    <div class="col-1"></div>
   </div>
 
-  <div class="anchors" id="about-me"></div>
-  <h2 class="mt-4 subtitle-text">"Nice to meet you! Tell me about yourself."</h2>
-  <p class="mt-4 text-white body-text">
-    By the age-old process of finding oneself, I started my programming journey in November of 2020. As someone
-    who is motivated by self-improvement, I have been challenging myself to learn and absorb
-    many newfound aspects of programming with an aspiration to see a life-long career flourish. Through the
-    hundreds of lessons that I have taken through Udemy, I have enhanced my knowledge from simple
-    methods to entire full-stack websites. 
-    <br><br>
-    Although I enjoyed watching myself improve over time, it certainly wasn't easy! I quickly realized that with
-    every hour spent on coursework and projects, there would be, <em>at the very least,</em> a handful spent 
-    researching and fixing any hiccups that can (and certainly do) arise. This process was the perfect 
-    balance of being rewarding enough to keep moving forward, but challenging enough to where the knowledge is properly 
-    reinforced. As a whole, that is <em>exactly</em> what programming is to 
-    me - a process of never-ending growth!
-    <br><br>
-    The creation of this portfolio marks a just over a year since I started delving into the programming world. I
-    hope to continue this odyssey alongside you and your team!
-  </p>
-
-  <div class="anchors" id="my-credentials"></div>
-  <h2 class="mt-4 subtitle-text">"I see. What do you bring to the table?"</h2>
-  <p class="mt-4 text-white body-text">
-    Asides from the ability to work with a team and the constant yearning for growth, I've also got the
-    technical skills to make the magic happen:
-  </p>
-  <div class="container">
-    <div class="row col-md-12">
-      <div class="col-1"></div>
-      <ul class="col-7 text-white"><h4 class='mt-4 mb-4'>Hard Skills:</h4>
-        <li>Ruby v2-3</li>
-        <li>Javascript (Basic)</li>
-        <li>Sinatra Full-Stack Utilization</li>
-        <li>Rails v5-6 Full-Stack Utilization</li>
-        <li>HTML</li>
-        <li>(S)CSS</li>
-        <li>Bootstrap v4-5</li>
-        <li>jQuery (Basic)</li>
-        <li>Chart.js</li>
-        <li>Semantic-UI</li>
-        <li>ActionCable via WebSocket</li>
-        <li>Devise Authentication</li>
-        <li>AJAX</li>
-        <li>API Utilization</li>
-        <li>Nokogiri Web Scraping</li>
-        <li>CLI Creation/Implementation</li>
-        <li>SendGrid Email Implementation</li>
-        <li>Stripe API Secure Payment Implementation</li>
-        <li>AWS S3 Bucket Implementation</li>
-        <li>SQLite3</li>
-        <li>Heroku</li>
-        <li>Redis</li>
-        <li>Russian</li>
-        <li>French (Basic)</li>
-      </ul>
-      <ul class="col-4 text-white"><h4 class="mt-4 mb-4">Soft Skills:</h4>
-        <li>Quick Learning</li>
-        <li>Leadership</li>
-        <li>Public Speaking</li>
-        <li>Organization</li>
-        <li>Attention to Detail</li>
-        <li>Positive Outlook</li>
-        <li>Team Oriented</li>
-        <li>Discipline</li>
-        <li>Time Management</li>
-        <li>Work Ethic</li>
-        <li>Multitasking</li>
-        <li>Decision Making</li>
-        <li>Performance Under Pressure</li>
-        <li>Problem Solving</li>
-        <li>Flexibility</li>
-        <li>Relationship Building</li>
-        <li>Accountability</li>
-        <li>Dependability</li>
-        <li>Integrity</li>
-        <li>Effective Communication</li>
-        <li>Critical Thinking</li>
-        <li>Goal Setting</li>
-      </ul>
-    </div>
+  <div class="anchors" id="about"></div>
+  <h2 class="mt-4 subtitle-text text-center" id="about-subtitle">About</h2>
+  
+  <div class="row">
+    <div class="col-1"></div>
+    <p class="mt-4 text-white body-text text-center col-10">
+      I am a full-stack Ruby on Rails developer who strives to always be working on his craft and learning 
+      new things! I enjoy staying on top of the latest technological trends/technologies and do what I can to 
+      implement them into the projects that I work on. In my spare time, I also frequent the gym and produce 
+      electronic music.
+      <br></br>
+      My current language and technology digital toolbox:
+    </p>
   </div>
-  <p class="mt-4 text-white body-text credentials">
-    You can also view my Udemy course certificate <%= link_to 'here', "/assets/udemy-certificate.jpg", target: :_blank %> and my resume <%= link_to 'here', "/assets/resume.pdf", target: :_blank %>!
-  </p>
+  <div class="row mt-4 text-center">
+    <div class="col-1"></div>
+    <div class="col-10 devicon">
+      <i class="devicon-ruby-plain-wordmark"></i>
+      <i class="devicon-rails-plain-wordmark"></i>
+      <i class="devicon-javascript-plain"></i>
+      <i class="devicon-jquery-plain-wordmark"></i>
+      <i class="devicon-html5-plain-wordmark"></i>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="mt-4 col-10 devicon">
+      <i class="devicon-css3-plain-wordmark"></i>
+      <i class="devicon-sass-original"></i>
+      <i class="devicon-bootstrap-plain-wordmark"></i>
+      <i class="devicon-postgresql-plain-wordmark"></i>
+      <i class="devicon-heroku-original-wordmark"></i>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-1"></div>
+    <div class="mt-4 col-10 devicon">
+      <i class="devicon-git-plain-wordmark"></i>
+      <i class="devicon-github-original-wordmark"></i>
+      <i class="devicon-redis-plain-wordmark"></i>
+      <i class="devicon-bash-plain"></i>
+      <i class="devicon-amazonwebservices-plain-wordmark"></i>
+    </div>
+    <div class="col-1"></div>
 
-  <div class="anchors" id="my-work"></div>
-  <h2 class="mt-4 subtitle-text">"Interesting. Can you prove it?"</h2>
-  <p class="mt-4 text-white body-text">
-    You got it! I have a total of five websites built from scratch using Bootstrap (<em>including this one!</em>) and
-    Semantic-UI for the Message Me app!
-    Below are the links to each website:
-  </p>
-  <p class="testing col-10 mt-4 text-white body-text">
-    <em>For Testing, Feel Free to Use the Following:</em>
-    <li class="testing text-white"><i><u>Username</u></i>: markbezsonov@gmail.com</li>
-    <li class="testing text-white mb-4"><i><u>Password</u></i>: password</li>
-  </p>
-  <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
-    <div class="col">
-      <div class="card">
-        <a href="https://markbezsonov-alpha-blog.herokuapp.com/" target="_blank"><%= image_tag 'alpha-blog.jpg', class: 'card-img-top' %></a>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-alpha-blog.herokuapp.com/" target="_blank">Alpha Blog</a></h5>
-          <p class="card-text">
-            A blog application that ties in users, articles, and categories. Features administrative features.
-          </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/alpha_blog" target="_blank">View GitHub Repository</a></p>
-          <p class="card-text">Technologies featured:
-            <ul class=col-md-6>
-              <li>Ruby v2</li>
-              <li>Rails v6</li>
-              <li>HTML</li> 
-              <li>(S)CSS</li>
-              <li>Bootstrap v5</li>
-              <li>jQuery (Basic)</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <a href="https://markbezsonov-message-me.herokuapp.com/" target="_blank"><%= image_tag 'message-me.jpg', class: 'card-img-top' %></a>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-message-me.herokuapp.com/" target="_blank">Message Me</a></h5>
-          <p class="card-text">
-            A simple messaging application that utilizes users and messages. Uses ActionCable to keep up-to-date in real time.
-          </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/message_me" target="_blank">View GitHub Repository</a></p>
-          <p class="card-text">Technologies featured:
-            <ul class=col-md-6>
-              <li>Ruby v2</li>
-              <li>Rails v5</li>
-              <li>HTML</li>
-              <li>(S)CSS</li>
-              <li>Semantic UI</li>
-              <li>ActionCable via Websocket</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <a href="https://markbezsonov-finance-tracker.herokuapp.com/" target="_blank"><%= image_tag 'finance-tracker.jpg', class: 'card-img-top' %></a>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-finance-tracker.herokuapp.com/" target="_blank">Finance Tracker</a></h5>
-          <p class="card-text">
-            A stock tracking application that uses the IEX Cloud API to provide users with real-time information 
-            regarding the stocks of their choice. Users can add stocks to keep track of to their personal portfolio,
-            each stock having its own dedicated information page. Users may also add friends and see their
-            portfolios.
-          </p>
-          <p class="card-text text-danger">  
-            Please note that the values are in the free sandbox mode and hence incoherent to realistic values. 
-            This could hypothetically be fixed with a paid plan, but the application is strictly for 
-            demonstration purposes.</strong>
-          </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/finance_tracker" target="_blank">View GitHub Repository</a></p>
-          <p class="card-text">Technologies featured:
-            <ul>
-              <li>Ruby v3</li>
-              <li>Rails v6</li>
-              <li>HTML</li>
-              <li>(S)CSS</li>
-              <li>Bootstrap v4</li>
-              <li>jQuery (Basic)</li>
-              <li>Chart.js</li>
-              <li>Devise Authentication</li>
-              <li>AJAX</li>
-              <li>API Utilization</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank"><%= image_tag 'photo-app.jpg', class: 'card-img-top' %></a>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank">Photo App</a></h5>
-          <p class="card-text">
-            A picture storage application that where users have access to unlimited image uploads from any
-            remote device. Features Sendgrid for email confirmation and Stripe for payment handling.
-          </p>
-          <p class="card-text text-success">
-            Stripe Test CC#: 4242-4242-4242-4242<br>
-            Stripe Test CCV: 111<br>
-          </p>
-          <p><a class="card-text" href="https://github.com/MarkBezsonov/photo_app" target="_blank">View GitHub Repository</a></p>
-          <p class="card-text">Technologies featured:
-            <ul>
-              <li>Ruby v3</li>
-              <li>Rails v6</li>
-              <li>HTML</li>
-              <li>(S)CSS</li>
-              <li>Bootstrap v4</li>
-              <li>jQuery (Basic)</li>
-              <li>Devise Authentication</li>
-              <li>AJAX</li>
-              <li>API Utilization</li>
-              <li>Sendgrid Email Implementation</li>
-              <li>Stripe API Secure Payment Implementation</li>
-              <li>AWS S3 Bucket Implementation</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </div>
+    <div class="devicon-border"></div>
+    <div class="col-1"></div>
+      <a href="#projects" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Projects</a>
+      <a href="/" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Top</a>
+      <a href="#contact" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Contact</a>
+    <div class="col-1"></div>
   </div>
 
-  <div class="anchors" id="contact-me"></div>
-  <h2 class="mt-4 subtitle-text">"I like what I see! How can we get in touch?"</h2>
-  <p class="mt-4 text-white body-text">
-    To keep our wonderful conversation going, feel free to click/tap on your preferred platform below:
+  <div class="anchors" id="projects"></div>
+  <h2 class="mt-4 subtitle-text text-center" id="projects-subtitle">Projects</h2>
+  <p class='text-white mt-4 body-text text-center'>
+    These projects are hosted on Heroku, so please give them a few seconds to fire up. Thank you!
   </p>
-  <div class="col-md-12 text-center mt-4" id='socials'>
+  
+  <div id="carouselExampleDark" class="mt-4 carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank"><%= image_tag 'photo-app.jpg', size:'1925x625', class: 'd-block w-100' %></a>
+        <div class="carousel-caption bg-dark text-white">
+          <h5><a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank">Photo App</a></h5>
+          <div class="row">
+            <div class="col-2"></div>
+            <p class="col-8 m-2">A picture storage application that where users have access to unlimited image uploads from any
+              remote device. Features Sendgrid for email confirmation and the Stripe API for payment handling.</p>
+            <div class="col-2"></div>
+          </div>
+          <div class="badges">
+            <span class="badge rounded-pill bg-light text-dark">Ruby 3</span>
+            <span class="badge rounded-pill bg-light text-dark">Rails 6</span>
+            <span class="badge rounded-pill bg-light text-dark">HTML</span>
+            <span class="badge rounded-pill bg-light text-dark">Sass</span>
+            <span class="badge rounded-pill bg-light text-dark">Bootstrap 4</span>
+            <span class="badge rounded-pill bg-light text-dark">jQuery (Basic)</span>
+            <span class="badge rounded-pill bg-light text-dark">PostgreSQL</span>
+            <span class="badge rounded-pill bg-light text-dark">Devise</span>
+            <span class="badge rounded-pill bg-light text-dark">AJAX</span>
+            <span class="badge rounded-pill bg-light text-dark">APIs</span>
+            <span class="badge rounded-pill bg-light text-dark">SendGrid</span>
+            <span class="badge rounded-pill bg-light text-dark">Stripe</span>
+            <span class="badge rounded-pill bg-light text-dark">AWS</span>
+          </div>
+          <a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-primary">Live</a>
+          <a href="https://github.com/MarkBezsonov/photo_app" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-success">Repo</a>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="https://markbezsonov-finance-tracker.herokuapp.com/" target="_blank"><%= image_tag 'finance-tracker.jpg', size:'1925x625', class: 'd-block w-100' %></a>
+        <div class="carousel-caption d-none d-md-block bg-dark text-white">
+          <h5><a href="https://markbezsonov-finance-tracker.herokuapp.com/" target="_blank">Finance Tracker</a></h5>
+          <div class="row">
+            <div class="col-2"></div>
+              <p class="col-8 m-2">A stocks application that uses the IEX Cloud API (Sandbox mode) to provide users with real-time information 
+                regarding the stocks of their choice. Users can view stock pages, add stocks to a portfolio, and add/view friends and their portfolios.
+              </p>
+            <div class="col-2"></div>
+          </div>
+          <div class="badges">
+            <span class="badge rounded-pill bg-light text-dark">Ruby v3</span>
+            <span class="badge rounded-pill bg-light text-dark">Rails v6</span>
+            <span class="badge rounded-pill bg-light text-dark">HTML</span>
+            <span class="badge rounded-pill bg-light text-dark">Sass</span>
+            <span class="badge rounded-pill bg-light text-dark">Bootstrap v4</span>
+            <span class="badge rounded-pill bg-light text-dark">jQuery (Basic)</span>
+            <span class="badge rounded-pill bg-light text-dark">Chart.js</span>
+            <span class="badge rounded-pill bg-light text-dark">PostgreSQL</span>
+            <span class="badge rounded-pill bg-light text-dark">Devise</span>
+            <span class="badge rounded-pill bg-light text-dark">AJAX</span>
+            <span class="badge rounded-pill bg-light text-dark">APIs</span>
+          </div>
+          <a href="https://markbezsonov-finance-tracker.herokuapp.com/" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-primary">Live</a>
+          <a href="https://github.com/MarkBezsonov/finance_tracker" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-success">Repo</a>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="https://markbezsonov-message-me.herokuapp.com/" target="_blank"><%= image_tag 'message-me.jpg', size:'1925x625', class: 'd-block w-100' %></a>
+        <div class="carousel-caption d-none d-md-block bg-dark text-white">
+          <h5><a href="https://markbezsonov-message-me.herokuapp.com/" target="_blank">Message Me</a></h5>
+          <div class="row">
+            <div class="col-2"></div>
+            <p class="col-8 m-2">A simple messaging application that utilizes users, sessions, and messages. Uses ActionCable and Redis to keep up-to-date in real time.</p>
+            <div class="col-2"></div>
+          </div>
+          <div class="badges">
+            <span class="badge rounded-pill bg-light text-dark">Ruby 2</span>
+            <span class="badge rounded-pill bg-light text-dark">Rails 5</span>
+            <span class="badge rounded-pill bg-light text-dark">HTML</span>
+            <span class="badge rounded-pill bg-light text-dark">Sass</span>
+            <span class="badge rounded-pill bg-light text-dark">Semantic UI</span>
+            <span class="badge rounded-pill bg-light text-dark">ActionCable (WebSocket)</span>
+            <span class="badge rounded-pill bg-light text-dark">PostgreSQL</span>
+          </div>
+          <a href="https://markbezsonov-message-me.herokuapp.com/" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-primary">Live</a>
+          <a href="https://github.com/MarkBezsonov/message_me" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-success">Repo</a>
+        </div>
+      </div>
+      
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="https://markbezsonov-alpha-blog.herokuapp.com/" target="_blank"><%= image_tag 'alpha-blog.jpg', size:'1925x625', class: 'd-block w-100' %></a>
+        <div class="carousel-caption d-none d-md-block bg-dark text-white">
+          <h5><a href="https://markbezsonov-alpha-blog.herokuapp.com/" target="_blank">Alpha Blog</a></h5>
+          <div class="row">
+            <div class="col-2"></div>
+            <p class="col-8 m-2">A blog application that ties in users, articles, and categories. Features administrative features. Uses the Ransack gem for multi-class search.</p>
+            <div class="col-2"></div>
+          </div>
+          <div class="badges">
+            <span class="badge rounded-pill bg-light text-dark">Ruby 2</span>
+            <span class="badge rounded-pill bg-light text-dark">Rails 6</span>
+            <span class="badge rounded-pill bg-light text-dark">HTML</span>
+            <span class="badge rounded-pill bg-light text-dark">Sass</span>
+            <span class="badge rounded-pill bg-light text-dark">Bootstrap 5</span>
+            <span class="badge rounded-pill bg-light text-dark">jQuery (Basic)</span>
+            <span class="badge rounded-pill bg-light text-dark">PostgreSQL</span>
+          </div>
+          <a href="https://markbezsonov-photo-app.herokuapp.com/" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-primary">Live</a>
+          <a href="https://github.com/MarkBezsonov/photo_app" target="_blank" class="mt-3 mb-4 mx-1 btn btn-outline-success">Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class="row mt-4">
+    <div class="col-1"></div>
+      <a href="#contact" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Contact</a>
+      <a href="/" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Top</a>
+      <a href="#about" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">About</a>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="anchors" id="contact"></div>
+  <h2 class="mt-4 subtitle-text text-center" id="contact-subtitle">Contact</h2>
+  
+  <p class="mt-4 text-white body-text text-center">
+    Please feel free to reach out to me via the following platforms:
+  </p>
+  <div class="col-12 text-center mt-4" id='socials'>
     <a href="https://github.com/MarkBezsonov" target="_blank"><%= image_tag 'github.jpg', class: 'm-4' %></a>
     <a href="https://www.linkedin.com/in/mark-b-31947b11a/" target="_blank"><%= image_tag 'linkedin.jpg', class: 'm-4' %></a>
-    <a href="mailto: markbezsonov@gmail.com" target="_blank"><%= image_tag 'email.jpg', class: 'm-4' %></a>
+    <a href="mailto: markbezsonov@gmail.com?subject=Regarding%20Your%20Portfolio" target="_blank"><%= image_tag 'email.jpg', class: 'm-4' %></a>
   </div>
-  <p class="mt-4 text-white body-text">
-    This conversation was great! In the meanwhile, I will be preparing for our <em>real</em> one on one, coffee on me! I'll see you then!
+  <p class="mt-4 mb-4 text-white body-text text-center">
+    Alternatively, you may also send me an email directly here:
   </p>
+
+  <!-- Render form here -->
+
+  <div class="row mt-4">
+    <div class="col-1"></div>
+      <a href="#about" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">About</a>
+      <a href="/" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Top</a>
+      <a href="#projects" class="btn btn-outline-secondary btn-lg col-3 mt-4 mx-auto">Projects</a>
+    <div class="col-1"></div>
+  </div>
+
+  <div id="end"></div>
 </div>

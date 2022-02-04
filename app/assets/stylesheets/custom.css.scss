@@ -12,6 +12,58 @@ body {
   border-radius: 10%;
 }
 
+@media (min-width: 0px) {
+  .my-picture {
+    margin: 8% auto 2.7% auto;
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-picture {
+    margin: 7% auto 2.4% auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-picture {
+    margin: 6% auto 2.1% auto;
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-picture {
+    margin: 5% auto 1.8% auto;
+    width: 60%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .my-picture {
+    margin: 12% auto 1.5% auto;
+    width: 65%;
+  }
+
+  #about-subtitle {
+    padding-top: 14%;
+  }
+
+  #projects {
+    margin-top: 21%;
+    padding-top: 8%;
+  }
+
+  #contact-subtitle {
+    padding-top: 9%;
+  }
+
+  #end {
+    padding-top: 9.5%;
+  }
+}
+
 .title-text {
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: 75px;
@@ -38,36 +90,43 @@ body {
   padding-top: 60px;
 }
 
-.border {
-  border-bottom: solid;
-  border-width:  75%;
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.925);
+}
+
+.devicon i {
+  font-size: 100px;
   color: white;
+  padding: 50px;
 }
 
-.card-img-top {
-  display: block;
-  margin: 1% auto 1% auto;
-  width: 80%;
+.devicon-border {
+  margin-top: 2%;
 }
 
-.card {
-  background-color: rgba(255, 255, 255, 0.822)
+.carousel-caption {
+  opacity: .8;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
-.testing {
-  margin-left: 5%;
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
-.credentials a {
-  color: rgb(255, 246, 192);
+.carousel-indicators {
+  bottom: -1%;
+  filter: invert(100%);
 }
 
-.card a {
-  color: black;
+.carousel-caption a {
+  color: white; 
+  cursor: pointer;  
 }
 
-a:hover {
-  color:#00A0C6; 
-  text-decoration:none; 
-  cursor:pointer;  
+.hidden {
+  display: none;
 }
