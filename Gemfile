@@ -25,6 +25,8 @@ gem 'font-awesome-sass', '~> 5.15.1'
 gem 'mail_form'
 # For environmental variables
 gem 'figaro'
+# JS Framework access
+gem 'stimulus-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
