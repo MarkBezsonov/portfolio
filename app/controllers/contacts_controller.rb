@@ -8,13 +8,15 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(params[:contact])
     @contact.request = request
-    respond_to do |format|
-      if @contact.deliver
+    
+    if @contact.deliver
+      respond_to do |format|
         format.html {redirect_to root_path, notice: 'Thank you for your message! I will get back to you shortly.'}
-        format.json {render partial: "contacts/new"}
-      else
-        format.html {render partial: "contacts/new"}
-        format.json {}
+      end
+    else
+      respond_to do |format|
+        format.html {flash.now[:alert] = 'Your message could not be sent. Please try again.'}
+        format.js {}
       end
     end
   end

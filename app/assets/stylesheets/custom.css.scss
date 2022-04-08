@@ -9,17 +9,46 @@ body {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 12% auto 1.5% auto;
-    width: 65%;
+    margin: 45% auto 1.5% auto;
+    width: 75%;
+  }
+
+  #greeting {
+    font-size: 250%;
+  }
+
+  .body-text {
+    font-size: 100% !important;
+  }
+
+  #about {
+    margin-top: 55%;
   }
 
   #about-subtitle {
-    padding-top: 14%;
+    padding-top: 30%;
+  }
+
+  .devicon i {
+    font-size: 50px;
+    color: white;
+    padding: 10px;
   }
 
   #projects {
     margin-top: 21%;
-    padding-top: 8%;
+  }
+
+  #projects-subtitle {
+    padding-top: 55%;
+  }
+
+  .carousel-caption {
+    display: none;
+  }
+
+  #contact {
+    margin-top: 50%;
   }
 
   #contact-subtitle {
@@ -35,30 +64,78 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .end-socials {
+    height: 10%;
+    width: 10%;
+  }
+
+  .email-field {
+    margin-top: 5%;
+  }
+
+  .submit-button {
+    font-size: 80%;
+  }
+}  
+
 @media (min-width: 768px) {
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 12% auto 1.5% auto;
-    width: 65%;
+    margin: 43% auto 1.5% auto;
+    width: 70%;
   }
 
+  #greeting {
+    font-size: 350%;
+  }
+
+  .body-text {
+    font-size: 175% !important;
+  }
+
+  #about {
+    margin-top: 35%;
+  }
+  
   #about-subtitle {
-    padding-top: 14%;
+    padding-top: 18%;
+  }
+
+  .devicon i {
+    font-size: 80px;
+    color: white;
+    padding: 50px;
+  }
+  
+  .devicon-border {
+    margin-top: 2%;
   }
 
   #projects {
     margin-top: 21%;
-    padding-top: 8%;
+  }
+
+  #projects-subtitle {
+    padding-top: 26%;
+  }
+
+  .carousel-caption {
+    display: block;
+  }
+
+  #contact {
+    margin-top: 15%;
   }
 
   #contact-subtitle {
-    padding-top: 19%;
+    padding-top: 18%;
   }
 
   #end {
-    padding-top: 19.5%;
+    padding-top: 30%;
   }
 
   .messages {
@@ -71,25 +148,58 @@ body {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 12% auto 1.5% auto;
+    margin: 27% auto 1.5% auto;
     width: 65%;
   }
 
+  #greeting {
+    font-size: 350%;
+  }
+  
+  .body-text {
+    font-size: 175% !important;
+  }
+
+  #about {
+    margin-top: 11%;
+  }
+
   #about-subtitle {
-    padding-top: 14%;
+    padding-top: 15%;
+  }
+
+  .devicon i {
+    font-size: 100px;
+    color: white;
+    padding: 50px;
+  }
+  
+  .devicon-border {
+    margin-top: 2%;
   }
 
   #projects {
-    margin-top: 21%;
-    padding-top: 8%;
+    margin-top: 15%;
+  }
+
+  #projects-subtitle {
+    padding-top: 17%; 
+  }
+
+  .carousel-caption {
+    display: block;
+  }
+
+  #contact {
+    margin-top: 0%;
   }
 
   #contact-subtitle {
-    padding-top: 19%;
+    padding-top: 24%;
   }
 
   #end {
-    padding-top: 19.5%;
+    padding-top: 25%;
   }
 
   .messages {
@@ -102,21 +212,54 @@ body {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 12% auto 1.5% auto;
+    margin: 18% auto 1.5% auto;
     width: 65%;
   }
 
+  #greeting {
+    font-size: 400%;
+  }
+  
+  .body-text {
+    font-size: 175% !important;
+  }
+
+  #about {
+    margin-top: 3%;
+  }
+
   #about-subtitle {
-    padding-top: 14%;
+    padding-top: 18%;
+  }
+  
+  .devicon i {
+    font-size: 100px;
+    color: white;
+    padding: 50px;
+  }
+  
+  .devicon-border {
+    margin-top: 2%;
   }
 
   #projects {
     margin-top: 21%;
-    padding-top: 8%;
+  }
+
+  #projects-subtitle {
+    padding-top: 12%; 
+  }
+
+  .carousel-caption {
+    display: block;
+  }
+
+  #contact {
+    margin-top: 0%;
   }
 
   #contact-subtitle {
-    padding-top: 19%;
+    padding-top: 22%;
   }
 
   #end {
@@ -137,13 +280,46 @@ body {
     width: 65%;
   }
 
+  #greeting {
+    font-size: 450%;
+  }
+  
+  .body-text {
+    font-size: 175% !important;
+  }
+
+  #about {
+    margin-top: 6%;
+  }
+
   #about-subtitle {
-    padding-top: 18%;
+    padding-top: 22%;
+  }
+
+  .devicon i {
+    font-size: 100px;
+    color: white;
+    padding: 50px;
+  }
+  
+  .devicon-border {
+    margin-top: 2%;
   }
 
   #projects {
     margin-top: 21%;
-    padding-top: 7%;
+  }
+
+  #projects-subtitle {
+    padding-top: 8.5%; 
+  }
+
+  .carousel-caption {
+    display: block;
+  }
+
+  #contact {
+    margin-top: 0%;
   }
 
   #contact-subtitle {
@@ -151,13 +327,15 @@ body {
   }
 
   #end {
-    padding-top: 17.5%;
+    padding-top: 16.5%;
   }
 
   .messages {
     margin: 3% auto -3% auto;
   }
 }
+
+// End of resolution-based touch-ups // 
 
 .title-text {
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -183,16 +361,6 @@ body {
 
 .navbar-custom {
   background-color: rgba(0, 0, 0, 0.925);
-}
-
-.devicon i {
-  font-size: 100px;
-  color: white;
-  padding: 50px;
-}
-
-.devicon-border {
-  margin-top: 2%;
 }
 
 .carousel-caption {
