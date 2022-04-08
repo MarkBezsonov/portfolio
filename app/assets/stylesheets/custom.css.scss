@@ -5,11 +5,15 @@ body {
 }
 
 @media (min-width: 0px) {
+  #bootstrap-messages {
+    padding-top: 10%;
+  }
+
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 45% auto 1.5% auto;
+    margin: 35% auto 1.5% auto;
     width: 75%;
   }
 
@@ -80,11 +84,15 @@ body {
 }  
 
 @media (min-width: 768px) {
+  #bootstrap-messages {
+    padding-top: 7%;
+  }
+
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 43% auto 1.5% auto;
+    margin: 34% auto 1.5% auto;
     width: 70%;
   }
 
@@ -144,11 +152,15 @@ body {
 }
 
 @media (min-width: 992px) {
+  #bootstrap-messages {
+    padding-top: 5%;
+  }
+
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 27% auto 1.5% auto;
+    margin: 22% auto 1.5% auto;
     width: 65%;
   }
 
@@ -208,11 +220,15 @@ body {
 }
 
 @media (min-width: 1200px) {
+  #bootstrap-messages {
+    padding-top: 3%;
+  }
+
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 18% auto 1.5% auto;
+    margin: 15% auto 1.5% auto;
     width: 65%;
   }
 
@@ -272,11 +288,15 @@ body {
 }
 
 @media (min-width: 1400px) {
+  #bootstrap-messages {
+    padding-top: 1%;
+  }
+
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 12% auto 1.5% auto;
+    margin: 11% auto 1.5% auto;
     width: 65%;
   }
 

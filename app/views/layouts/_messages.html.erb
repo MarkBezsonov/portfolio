@@ -1,4 +1,4 @@
-<div class="messages container position-relative">
+<div class="messages container position-relative" id="bootstrap-messages">
   <% flash.each do |name, msg|%>
     <div class="alert alert-<%= name == "notice" ? "success" : "danger" %> alert-dismissible fade show" role="alert">
       <%= msg %>
