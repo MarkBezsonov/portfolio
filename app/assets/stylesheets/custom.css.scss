@@ -6,19 +6,20 @@ body {
 
 @media (min-width: 0px) {
   #bootstrap-messages {
-    padding-top: 10%;
+    padding-top: 5%;
   }
 
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 35% auto 1.5% auto;
+    margin: 15% auto 1.5% auto;
     width: 75%;
   }
 
   #greeting {
-    font-size: 250%;
+    font-size: 200%;
+
   }
 
   .body-text {
@@ -66,14 +67,109 @@ body {
   .messages {
     margin: 3% auto -3% auto;
   }
-}
 
-@media (max-width: 768px) {
-  .end-socials {
-    height: 10%;
-    width: 10%;
+  .start-socials {
+    width: auto;
   }
 
+  .end-socials {
+    width: auto;
+  }
+
+  .nav-button {
+    font-size: 60%;
+  }
+
+  .start-socials {
+    display: none;
+  }
+}
+
+@media (min-width: 300px) {
+  .start-socials {
+    display: block;
+    width: 600%;
+  }
+
+  .end-socials {
+    width: 14%;
+  }
+
+  .nav-button {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 325px) {
+  .start-socials {
+    width: 400%;
+  }
+
+  .end-socials {
+    width: 13%;
+  }
+}
+
+@media (min-width: 350px) {
+  .start-socials {
+    width: 250%;
+  }
+
+  .end-socials {
+    width: 12%;
+  }
+
+  .nav-button {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 375px) {
+  .start-socials {
+    width: 150%;
+  }
+
+  .end-socials {
+    width: 11%;
+  }
+}
+
+@media (min-width: 400px) {
+  .start-socials {
+    width: 130%;
+  }
+
+  .end-socials {
+    width: 9%;
+  }
+}
+
+@media (min-width: 425px) {
+  .start-socials {
+    width: 100%;
+  }
+
+  .end-socials {
+    width: 9%;
+  }
+}
+
+@media (min-width: 475px) {
+  .start-socials {
+    width: 70%;
+  }
+
+  .end-socials {
+    width: 7%;
+  }
+
+  .nav-button {
+    font-size: 125%;
+  }
+}
+
+
+@media (max-width: 768px) {
   .email-field {
     margin-top: 5%;
   }
@@ -88,11 +184,15 @@ body {
     padding-top: 7%;
   }
 
+  .nav-button {
+    font-size: 150%;
+  }
+
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 34% auto 1.5% auto;
+    margin: 20% auto 1.5% auto;
     width: 70%;
   }
 
@@ -148,6 +248,14 @@ body {
 
   .messages {
     margin: 3% auto -3% auto;
+  }
+
+  .start-socials {
+    width: 60%;
+  }
+
+  .end-socials {
+    width: 7%;
   }
 }
 
@@ -217,6 +325,14 @@ body {
   .messages {
     margin: 3% auto -3% auto;
   }
+
+  .start-socials {
+    width: 35%;
+  }
+
+  .end-socials {
+    width: 4%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -285,6 +401,14 @@ body {
   .messages {
     margin: 3% auto -3% auto;
   }
+
+  .start-socials {
+    width: 35%;
+  }
+
+  .end-socials {
+    width: 4%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -352,6 +476,14 @@ body {
 
   .messages {
     margin: 3% auto -3% auto;
+  }
+
+  .start-socials {
+    width: 35%;
+  }
+
+  .end-socials {
+    width: 4%;
   }
 }
 
