@@ -6,14 +6,14 @@ body {
 
 @media (min-width: 0px) {
   #bootstrap-messages {
-    padding-top: 5%;
+    padding-top: 15%;
   }
 
   .my-picture {
     display: block;
     height: auto;
     border-radius: 10%;
-    margin: 25% auto 1.5% auto;
+    margin: 15% auto 1.5% auto;
     width: 75%;
   }
 
@@ -84,6 +84,8 @@ body {
     display: none;
   }
 }
+
+// Start of interlude of social media icon and nav button sizes //
 
 @media (min-width: 300px) {
   .start-socials {
@@ -168,6 +170,7 @@ body {
   }
 }
 
+//  of interlude of social media icon and nav button sizes //
 
 @media (max-width: 768px) {
   .email-field {
@@ -175,7 +178,7 @@ body {
   }
 
   .submit-button {
-    font-size: 80%;
+    font-size: 70%;
   }
 }  
 
@@ -420,6 +423,87 @@ body {
     display: block;
     height: auto;
     border-radius: 10%;
+    margin: 8% auto 1.5% auto;
+    width: 40%;
+  }
+
+  #greeting {
+    font-size: 400%;
+  }
+  
+  .body-text {
+    font-size: 175% !important;
+  }
+
+  #about {
+    margin-top: 6%;
+  }
+
+  #about-subtitle {
+    padding-top: 8%;
+  }
+
+  .devicon i {
+    font-size: 100px;
+    color: white;
+    padding: 50px;
+  }
+  
+  .devicon-border {
+    margin-top: 2%;
+  }
+
+  #projects {
+    margin-top: 21%;
+  }
+
+  #projects-subtitle {
+    padding-top: 8.5%; 
+  }
+
+  .carousel-caption {
+    display: block;
+  }
+  
+  .carousel-item img {
+    height: 275px;
+    object-fit: cover;
+  }
+
+  #contact {
+    margin-top: 0%;
+  }
+
+  #contact-subtitle {
+    padding-top: 8%;
+  }
+
+  #end {
+    padding-top: 10%;
+  }
+
+  .messages {
+    margin: 3% auto -3% auto;
+  }
+
+  .start-socials {
+    width: 35%;
+  }
+
+  .end-socials {
+    width: 4%;
+  }
+}
+
+@media (min-width: 2560px) {
+  #bootstrap-messages {
+    padding-top: 1%;
+  }
+
+  .my-picture {
+    display: block;
+    height: auto;
+    border-radius: 10%;
     margin: 11% auto 1.5% auto;
     width: 65%;
   }
@@ -460,6 +544,10 @@ body {
 
   .carousel-caption {
     display: block;
+  }
+
+  .carousel-item img {
+    height: auto;
   }
 
   #contact {
